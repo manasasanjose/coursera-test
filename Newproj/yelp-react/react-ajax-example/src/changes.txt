@@ -1,0 +1,6 @@
+ //<button onClick={this.handleClick}>Click Me</button>
+        //<p>{this.state.username}</p>
+		
+		<ul>
+		{this.state.items.map(item=> (<li key={item.id}>{item.name}</li>))}
+</ul>
